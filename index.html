@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Резюме — Два специалиста</title>
+  <meta name="description" content="Общее резюме двух специалистов: навыки, опыт, проекты и контакты." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👨‍💻</text></svg>">
+</head>
+<body>
+  <header class="site-header container">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">👨‍💻👨‍💻</div>
+      <div class="titles">
+        <h1>Резюме команды</h1>
+        <p class="subtitle">Мы работаем лучше вместе</p>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="dm-toggle" class="btn ghost" aria-label="Переключить тему">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="team-hero card reveal">
+      <div class="person person-asi">
+        <div class="avatar-frame">
+          <img class="avatar-lg" src="assets/asi.jpg" alt="Асрор — фото" onerror="this.onerror=null;this.src='https://via.placeholder.com/320x320?text=Asi';" />
+        </div>
+        <div class="person-text">
+          <h2 class="eyebrow">Команда разработчиков</h2>
+          <h1 class="display">Асрор Сангинов</h1>
+          <p class="lead">Backend · Frontend · REST API · DevOps. Делаю надёжные сервисы и аккуратные интерфейсы.</p>
+          <div class="hero-contacts">
+            <a class="chip" href="https://t.me/as1shka" target="_blank" rel="noreferrer noopener">@as1shka</a>
+            <a class="chip" href="https://github.com/asi0700" target="_blank" rel="noreferrer noopener">github.com/asi0700</a>
+          </div>
+        </div>
+      </div>
+      <div class="person person-gleb" aria-label="Профиль Глеба (скоро)">
+        <div class="avatar-frame">
+          <img class="avatar-lg" src="assets/gleb.jpg" alt="Асрор — фото" onerror="this.onerror=null;this.src='https://via.placeholder.com/320x320?text=Asi';" />
+        </div>
+        <div class="person-text">
+          <h2 class="eyebrow muted">Разработчик</h2>
+          <h1 class="display">Глеб Пицентий</h1>
+          <div class="hero-contacts">
+            <a class="chip" href="https://t.me/ThisOneGleb" target="_blank" rel="noreferrer noopener">@ThisOneGleb</a>
+            <a class="chip" href="https://github.com/Matadddorcarzyyy" target="_blank" rel="noreferrer noopener">github.com/Matadddorcarzyyy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta glass reveal">
+      <div class="cta-text">
+        <h3>Ищем работу</h3>
+        <p>Готовы подключиться к вашим задачам: backend, frontend, интеграции, тестирование.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn primary" href="https://t.me/as1shka" target="_blank" rel="noreferrer noopener">Связаться с Асрором</a>
+        <a class="btn primary" href="https://t.me/ThisOneGleb" target="_blank" rel="noreferrer noopener">Связаться с Глебом</a>
+        <a class="btn ghost" href="mailto:feedbback24gmail.com" target="_blank" rel="noreferrer noopener">Написать: feedbback24gmail.com</a>
+      </div>
+    </section>
+
+    <section class="skills-combo card reveal" aria-label="Компетенции и стек">
+      <div class="skills-left">
+        <h3>Ключевые компетенции</h3>
+        <div class="charts-grid small">
+          <div class="radial" data-label="Python" data-percent="90">
+            <svg viewBox="0 0 120 120" class="ring"><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52"/></svg>
+            <div class="radial-label"><span>Python</span><strong>90%</strong></div>
+          </div>
+          <div class="radial" data-label="Java" data-percent="85">
+            <svg viewBox="0 0 120 120" class="ring"><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52"/></svg>
+            <div class="radial-label"><span>Java</span><strong>85%</strong></div>
+          </div>
+          <div class="radial" data-label="Django" data-percent="80">
+            <svg viewBox="0 0 120 120" class="ring"><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52"/></svg>
+            <div class="radial-label"><span>Django</span><strong>80%</strong></div>
+          </div>
+          <div class="radial" data-label="Spring Boot" data-percent="75">
+            <svg viewBox="0 0 120 120" class="ring"><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52"/></svg>
+            <div class="radial-label"><span>Spring Boot</span><strong>75%</strong></div>
+          </div>
+          <div class="radial" data-label="REST API" data-percent="88">
+            <svg viewBox="0 0 120 120" class="ring"><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52"/></svg>
+            <div class="radial-label"><span>REST API</span><strong>88%</strong></div>
+          </div>
+          <div class="radial" data-label="PostgreSQL" data-percent="78">
+            <svg viewBox="0 0 120 120" class="ring"><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52"/></svg>
+            <div class="radial-label"><span>PostgreSQL</span><strong>78%</strong></div>
+          </div>
+        </div>
+      </div>
+      <div class="skills-right">
+        <h3>Стек навыков</h3>
+        <div class="ticker-viewport" id="skills-ticker">
+          <div class="ticker-track">
+            <div class="ticker-row"><span class="logo">Py</span><strong>Python</strong><em>1 год опыта</em></div>
+            <div class="ticker-row"><span class="logo">Jv</span><strong>Java</strong><em>1 год опыта</em></div>
+            <div class="ticker-row"><span class="logo">Dj</span><strong>Django</strong><em>1 год опыта</em></div>
+            <div class="ticker-row"><span class="logo">Sp</span><strong>Spring</strong><em>1 год опыта</em></div>
+            <div class="ticker-row"><span class="logo">Pg</span><strong>PostgreSQL</strong><em>1 год опыта</em></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-carousel card reveal">
+      <h3>Проекты</h3>
+      <div class="carousel-viewport" id="projects-viewport">
+        <div class="carousel-track">
+        <!-- Asror / asi0700 -->
+        <a class="proj-card with-thumb" href="https://github.com/asi0700/IT-Solutions" target="_blank" rel="noreferrer noopener">
+          <img loading="lazy" src="https://opengraph.githubassets.com/1/asi0700/IT-Solutions" alt="IT-Solutions превью" />
+          <div class="proj-info"><span class="title">IT-Solutions</span><span class="meta">HTML · учебный (Колледж)</span></div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="proj-card with-thumb" href="https://github.com/asi0700/animated-404-page" target="_blank" rel="noreferrer noopener">
+          <img loading="lazy" src="https://opengraph.githubassets.com/1/asi0700/animated-404-page" alt="animated-404-page превью" />
+          <div class="proj-info"><span class="title">animated-404-page</span><span class="meta">CSS · учебный (Колледж)</span></div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="proj-card with-thumb highlight" href="https://github.com/asi0700/Warehouse_Control" target="_blank" rel="noreferrer noopener">
+          <span class="ribbon">Демонстрация</span>
+          <img loading="lazy" src="https://opengraph.githubassets.com/1/asi0700/Warehouse_Control" alt="Warehouse_Control превью" />
+          <div class="proj-info"><span class="title">Warehouse_Control</span><span class="meta">HTML · учебный (Колледж)</span></div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="proj-card with-thumb" href="https://github.com/asi0700/TrvaelMatic" target="_blank" rel="noreferrer noopener">
+          <img loading="lazy" src="https://opengraph.githubassets.com/1/asi0700/TrvaelMatic" alt="TrvaelMatic превью" />
+          <div class="proj-info"><span class="title">TrvaelMatic</span><span class="meta">CSS · учебный (Колледж)</span></div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="proj-card with-thumb" href="https://github.com/asi0700/Practic" target="_blank" rel="noreferrer noopener">
+          <img loading="lazy" src="https://opengraph.githubassets.com/1/asi0700/Practic" alt="Practic превью" />
+          <div class="proj-info"><span class="title">Practic</span><span class="meta">Java (template) · учебный (Колледж)</span></div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <!-- Gleb / Matadddorcarzyyy -->
+        <a class="proj-card with-thumb joint" href="https://github.com/Matadddorcarzyyy/GLEBVerse" target="_blank" rel="noreferrer noopener">
+          <span class="badge-joint">Совместный проект</span>
+          <img loading="lazy" src="https://opengraph.githubassets.com/1/Matadddorcarzyyy/GLEBVerse" alt="GLEBVerse превью" />
+          <div class="proj-info"><span class="title">GLEBVerse</span><span class="meta">HTML · учебный (Колледж)</span></div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="proj-card with-thumb" href="https://github.com/Matadddorcarzyyy/GLEBVers-" target="_blank" rel="noreferrer noopener">
+          <img loading="lazy" src="https://opengraph.githubassets.com/1/Matadddorcarzyyy/GLEBVers-" alt="GLEBVers- превью" />
+          <div class="proj-info"><span class="title">GLEBVers-</span><span class="meta">HTML · учебный (Колледж)</span></div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="proj-card with-thumb" href="https://github.com/Matadddorcarzyyy/LogTest" target="_blank" rel="noreferrer noopener">
+          <img loading="lazy" src="https://opengraph.githubassets.com/1/Matadddorcarzyyy/LogTest" alt="LogTest превью" />
+          <div class="proj-info"><span class="title">LogTest</span><span class="meta">Java · учебный (Колледж)</span></div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="proj-card with-thumb" href="https://github.com/Matadddorcarzyyy/sld2-examples-rpm" target="_blank" rel="noreferrer noopener">
+          <img loading="lazy" src="https://opengraph.githubassets.com/1/Matadddorcarzyyy/sld2-examples-rpm" alt="sld2-examples-rpm превью" />
+          <div class="proj-info"><span class="title">sld2-examples-rpm</span><span class="meta">C/Examples · учебный (Колледж)</span></div>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="proj-card with-thumb" href="https://github.com/Matadddorcarzyyy/sdl2-examples.rpm" target="_blank" rel="noreferrer noopener">
+          <img loading="lazy" src="https://opengraph.githubassets.com/1/Matadddorcarzyyy/sdl2-examples.rpm" alt="sdl2-examples.rpm превью" />
+          <div class="proj-info"><span class="title">sdl2-examples.rpm</span><span class="meta">C/Examples · учебный (Колледж)</span></div>
+          <span class="arrow">↗</span>
+        </a>
+        </div>
+      </div>
+      <p class="muted small">Есть совместные работы: см. репозитории на GitHub по ссылкам выше.</p>
+    </section>
+
+    <section class="project-example reveal" aria-label="Пример проекта Warehouse_Control">
+      <div class="pf-block pf-head">
+        <h3>Warehouse_Control <small class="muted">— пример работы</small></h3>
+      </div>
+      <div class="pf-block pf-image">
+        <img loading="lazy" src="https://opengraph.githubassets.com/1/asi0700/Warehouse_Control" alt="Warehouse_Control превью крупно" />
+      </div>
+      <div class="pf-block pf-desc">
+        <p class="pf-lead">Учебный проект (Колледж): интерфейс управления складом и базовые операции учёта. Демонстрация верстки, структурирования UI и интеграции с данными.</p>
+        <ul class="pf-tags">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <div class="pf-actions">
+          <a class="btn primary" href="https://github.com/asi0700/Warehouse_Control" target="_blank" rel="noreferrer noopener">GitHub репозиторий</a>
+        </div>
+      </div>
+      <div class="pf-block pf-demo">
+        <iframe title="Превью Warehouse_Control" class="preview-frame" loading="lazy" src="https://asi0700.github.io/Warehouse_Control/index.html"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>Доступно, быстро, по делу. Готовы обсудить вашу задачу.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
